@@ -12,6 +12,7 @@ describe('GreetingComponent', () => {
     })
     .compileComponents();
 
+    
     fixture = TestBed.createComponent(GreetingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
